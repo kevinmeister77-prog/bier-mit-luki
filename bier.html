@@ -1,0 +1,45 @@
+
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Bier mit Luki</title>
+<style>
+body {
+  background: #171717;
+  color: white;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  padding: 80px 20px;
+}
+button {
+  background: orange;
+  padding: 20px;
+  margin: 10px;
+  border: none;
+  border-radius: 12px;
+  font-size: 20px;
+  cursor: pointer;
+}
+</style>
+</head>
+<body>
+<h1>Servus Luki! 🍻</h1>
+<h2>Hast die Woche Zeit auf a Bier?</h2>
+
+<button onclick="bier()">JA 🍻</button>
+<button onclick="bier()">JA, FIX HAWI 😂</button>
+
+<h2 id="antwort"></h2>
+<p>Programmed by Kev 😎</p>
+
+<script>
+function bier() {
+  document.getElementById("antwort").innerText =
+    "PERFEKT! Dann sauf ma ans! 🍻😂";
+}
+</script>
+</body>
+</html>
+
